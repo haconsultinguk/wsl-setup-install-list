@@ -1,14 +1,13 @@
-[[entry]]
-package = "hq"
-package-checker = "which hq"
-get-from = "https://github.com/user/hq"
+[[packages]]
+name = "curl"
 
-[[entry]]
-package = "git"
-package-checker = "git --version"
-get-from = "https://git-scm.com"
+[[packages]]
+name = "htop"
 
-[[entry]]
-package = "curl"
-package-checker = "curl --version"
-get-from = "https://curl.se"
+[[packages]]
+name = "docker-ce"
+repo = "docker"
+
+[repos.docker]
+key_url = "https://download.docker.com/linux/ubuntu/gpg"
+repo_line = "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
