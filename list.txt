@@ -1,3 +1,14 @@
-htop
-gh
-git
+[[entry]]
+package = "hq"
+package-checker = "which hq"
+get-from = "https://github.com/user/hq"
+
+[[entry]]
+package = "git"
+package-checker = "git --version"
+get-from = "https://git-scm.com"
+
+[[entry]]
+package = "curl"
+package-checker = "curl --version"
+get-from = "https://curl.se"
