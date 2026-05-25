@@ -2,7 +2,7 @@
 name = "curl"
 
 [[packages]]
-namex = "htop"
+namex = "htopmoo"
 
 [[packages]]
 name = "docker-ce"
